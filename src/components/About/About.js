@@ -1,8 +1,22 @@
 import React from 'react';
+import * as Scroll from 'react-scroll';
+import { Element } from 'react-scroll';
+// import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+// let Link       = Scroll.Link;
+// let Element    = Scroll.Element;
+// let Events     = Scroll.Events;
+// let scroll     = Scroll.animateScroll;
+// let scrollSpy  = Scroll.scrollSpy;
+   // let Element = Scroll.Element;
 
 const About = () => {
 
    return(
+   <div>
+      <div>
+         <Element name="about" className="element" >
+        </Element>
+      </div>
       <div className = 'vh-100' style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
          <div className="center measure-wide f5 pv5 lh-copy ph2">
             <h1 className="f1 lh-title">About Me</h1>
@@ -21,11 +35,12 @@ const About = () => {
 
                   </p>
                   <p>
-                     I just recently moved to Bay Area. I am excited to explore more about the city and meeting interesting people around here.
+                     I just recently moved to Bay Area. (But secretly, I am a long time Warriors fans!) I am excited to explore more about the city and meeting interesting people around here.
                   </p>
                </div>
            </div>
       </div>
+   </div>
    )
 }
 
