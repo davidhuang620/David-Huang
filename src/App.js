@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 import Top from './components/Top/Top.js';
 import Nav from './components/Nav/Nav.js';
 import About from './components/About/About.js';
+import Experience from './components/Experience/Experience.js';
+
 
 class App extends Component {
   render() {
@@ -12,6 +14,7 @@ class App extends Component {
          <Nav />
          <Top />
          <About />
+         <Experience />
       </div>
     )
   }
