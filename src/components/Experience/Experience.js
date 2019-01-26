@@ -1,10 +1,12 @@
 import React from 'react';
 import './Experience.css';
 
+// className = 'vh-100'
+
 const Experience = () => {
 
    return(
-      <div className = 'vh-100' id = 'container'>
+      <div id = 'container'>
          <div id = 'leftContainer' className="mt6 cf ph3 ph5-ns pv5">
             <header class="">
                <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
@@ -31,25 +33,34 @@ const Experience = () => {
                   </p>
                </article>
                <article class="mw7 bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
-                  <div class="tc">
-                     <h1 class="f4">Mimi Whitehouse</h1>
-                     <hr class="mw3 bb bw1 b--black-10" />
-                  </div>
+                     <h1 class="f4">Software Engineer</h1>
+                     <h1 class="f6 pb3">Tuva Blockchain – Blackstone Launchpad</h1>
                   <p class="lh-copy center f6 black-70">
-                  Quite affectionate and outgoing.
-                  She loves to get chin scratches and will
-                  roll around on the floor waiting for you give her more of them.
+                     <ul>
+                        <li>
+                        •	Deployed the product in Solidity, a programming language for implementing smart contracts on blockchain platform.
+                        </li>
+                        <li>
+                        •	Develop the Web App using the MERN stack, React JS, Node JS, Express JS, and MongoDB.
+                        </li>
+                        <li>
+                        •	Joined Blackstone Launchpad, entrepreneurship program from the world’s largest investment firm.
+                        </li>
+                     </ul>
                   </p>
                </article>
                <article class="mw7 bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
-                  <div class="tc">
-                     <h1 class="f4">Mimi Whitehouse</h1>
-                     <hr class="mw3 bb bw1 b--black-10" />
-                  </div>
+                     <h1 class="f4">Engineer/ Analyst Intern</h1>
+                     <h1 class="f6 pb3">General Motors Financial</h1>
                   <p class="lh-copy center f6 black-70">
-                  Quite affectionate and outgoing.
-                  She loves to get chin scratches and will
-                  roll around on the floor waiting for you give her more of them.
+                     <ul>
+                        <li>
+                        Used Python and VBA Programming to create user interfaces and automated business pipeline to reduce repetitive task and human error.
+                        </li>
+                        <li>
+                        Built machine learning predicting models in SAS programming to forecast car price and customers’ lease term based on data sets containing more than 1.7 Million observations and 20 variables.
+                        </li>
+                     </ul>
                   </p>
                </article>
          </div>
