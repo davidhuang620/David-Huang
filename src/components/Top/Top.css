@@ -4,3 +4,10 @@
    justify-content: center;
    align-items: center;
 }
+
+.typed-cursor {
+   animation: typedjsBlink 5s infinite;
+   animation:  5s infinite;
+   color: #0266C8;
+
+}

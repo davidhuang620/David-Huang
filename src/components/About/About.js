@@ -31,7 +31,7 @@ const About = () => {
                   <p>
                      Since I graduated from the University of Texas at Dallas with my B.S. in Mathematics and Computer Science (minor),
                      I have been working as an engineer in the field of software development and machine learning.
-                     With these valuable diverse experiences, I decided to further pursue my career in the Software Engineer space.
+                     With these valuable diverse experiences, I want to further pursue my career in the Software Engineer space.
 
                   </p>
                   <p>
