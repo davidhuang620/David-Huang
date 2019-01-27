@@ -9,6 +9,9 @@ import Projects from './components/Projects/Projects.js';
 import Footer from './components/Footer/Footer.js';
 
 class App extends Component {
+
+
+
   render() {
     return (
       <div>
