@@ -1,26 +1,17 @@
 import React from 'react';
-import * as Scroll from 'react-scroll';
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-
+import { Link} from 'react-scroll';
+import pdf from './Resume.pdf';
 
 const Nav = () => {
 
-   const scrollTo = () => {
-     scroller.scrollTo('scroll-to-element', {
-       duration: 800,
-       delay: 0,
-       smooth: 'easeInOutQuart'
-     })
-   }
-
    return(
       <div>
-         <header className="fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l tr-l">
-           <nav className="f6 fw6 ttu tracked" style = {{color: "#0266C8"}} >
-             <Link activeClass="active" className="pointer about link dim dib mr4 f3" to="about" spy={true} smooth={true} duration={1000}> ABOUT</Link>
-             <Link activeClass="active" className="pointer about link dim dib mr4 f3" to="experience" spy={true} smooth={true} duration={1000}> Experience</Link>
-             <Link activeClass="active" className="pointer about link dim dib mr4 f3" to="projects" spy={true} smooth={true} duration={1000}> Projects</Link>
-             <Link activeClass="active" className="pointer about link dim dib mr4 f3" to="resume" spy={true} smooth={true} duration={1000}> Resume</Link>
+         <header className="fixed w-100 ph3 pv3 ph3-ns ph4-m pl5-l tr" style={{}}>
+           <nav className="f7 f6-m f4-l fw6 ttu tracked" style = {{color: "#0266C8"}} >
+             <Link activeclassName="active" className="pointer about link dim dib mr2 mr4-l mr4-m" to="about" spy={true} smooth={true} duration={1000} style = {{ backgroundColor: "rgba(255,255,255,0.7)"}}> ABOUT</Link>
+             <Link activeclassName="active" className="pointer about link dim dib mr2 mr4-l mr4-m" to="experience" spy={true} smooth={true} duration={1000} style = {{ backgroundColor: "rgba(255,255,255,0.7)"}}> Experience</Link>
+             <Link activeclassName="active" className="pointer about link dim dib mr2 mr4-l mr4-m" to="projects" spy={true} smooth={true} duration={1000} style = {{ backgroundColor: "rgba(255,255,255,0.7)"}}> Projects</Link>
+             <a className="pointer about link dim dib mr2 mr4-l mr4-m 7 f6-m f4-l fw6 ttu tracked" href={pdf} style = {{ color: "#0266C8", backgroundColor: "rgba(255,255,255,0.7)"}}> Resume</a>
            </nav>
          </header>
       </div>
