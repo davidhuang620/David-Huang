@@ -15,7 +15,7 @@ const Experience = () => {
          <div id = 'container'>
             <div id = 'leftContainer' className="mt6 cf ph3 ph5-ns pv5">
                <header className="">
-                  <h1 className="f1 lh-title fw9 mb3 mt0 pt3 bt bw2">
+                  <h1 className="f1 lh-title fw9 mt0 pt3 bt bw2">
                      Experience
                   </h1>
                </header>

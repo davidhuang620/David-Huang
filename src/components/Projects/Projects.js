@@ -152,7 +152,7 @@ const Projects = () => {
                   <article className="mw7 bg-white br3 pa3 pa4-ns mv3 ba b--black-10 shadow-5">
                      <div className = 'cardBlock'>
                         <div>
-                           <a href='https://www.davidhuang620.com' className="link black hover-bg-light-blue f3 b"> davidhuang620.com</a>
+                           <a href='http://www.davidhuang620.com' className="link black hover-bg-light-blue f3 b"> davidhuang620.com</a>
                         </div>
                         <div className = 'icons mt3'>
                            <div>

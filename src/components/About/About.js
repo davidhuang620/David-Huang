@@ -6,7 +6,7 @@ const About = () => {
    return(
    <div>
 
-      <div className = 'vh-100' style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+      <div className = 'vh-100 mb6' style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
          <div className="center measure-wide f5 pv5 lh-copy pr4 pl4">
          <div>
             <Element name="about" className="element" >
