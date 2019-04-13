@@ -4,19 +4,20 @@ import Typed from 'typed.js';
 
 class Top extends React.Component{
 
-   // componentDidMount() {
-   //    let options = {
-   //       strings: ["Software Engineer", "Tech Enthusiast", "NBA Fan"],
-   //       typeSpeed: 150,
-   //       backSpeed: 70,
-   //       backDelay: 2000,
-   //       loop: true,
-   //       showCursor: true,
-   //       cursorChar: '▌',
-   //       autoInsertCss: true
-   //    }
-   //    this.typed = new Typed(this.el, options);
-   // }
+
+   componentDidMount() {
+      let options = {
+         strings: ["Software Engineer", "Tech Enthusiast", "NBA Fan"],
+         typeSpeed: 150,
+         backSpeed: 70,
+         backDelay: 2000,
+         loop: true,
+         showCursor: true,
+         cursorChar: '▌',
+         autoInsertCss: true
+      }
+      this.typed = new Typed('#typed', options);
+   }
 
    componentWillUnmount() {
      	// Make sure to destroy Typed instance on unmounting
@@ -24,13 +25,15 @@ class Top extends React.Component{
        this.typed.destroy();
      }
 
+     //ref={(el) => { this.el = el; }}>
+     //id = 'typed'
    render(){
       return(
             <div className="vh-100 tc pt6 mb7 pb6" id = "title">
                <div className="dtc v-mid pb5">
                   <h1 className="fw1 f-subheadline-m f1 f-headline-l black" >David Huang</h1>
                   <span className="f1-m f1-l f3" style={{ whiteSpace: 'pre', color: "#0266C8" }}
-                     ref={(el) => { this.el = el; }}>
+                     id = 'typed'>
 
                   </span>
                </div>
