@@ -4,19 +4,19 @@ import Typed from 'typed.js';
 
 class Top extends React.Component{
 
-   componentDidMount() {
-      let options = {
-         strings: ["Software Engineer", "Tech Enthusiast", "NBA Fan"],
-         typeSpeed: 150,
-         backSpeed: 70,
-         backDelay: 2000,
-         loop: true,
-         showCursor: true,
-         cursorChar: '▌',
-         autoInsertCss: true
-      }
-      this.typed = new Typed(this.el, options);
-   }
+   // componentDidMount() {
+   //    let options = {
+   //       strings: ["Software Engineer", "Tech Enthusiast", "NBA Fan"],
+   //       typeSpeed: 150,
+   //       backSpeed: 70,
+   //       backDelay: 2000,
+   //       loop: true,
+   //       showCursor: true,
+   //       cursorChar: '▌',
+   //       autoInsertCss: true
+   //    }
+   //    this.typed = new Typed(this.el, options);
+   // }
 
    componentWillUnmount() {
      	// Make sure to destroy Typed instance on unmounting
