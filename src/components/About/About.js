@@ -28,7 +28,7 @@ const About = () => {
 
                   </p>
                   <p>
-                     I just recently moved to Bay Area. (But secretly, I am a long time Warriors fans!) I am excited to explore more about the city, trying out good shusi places, and meeting interesting people around here.
+                     I just recently moved to Bay Area. (But secretly, I am a long time Warriors fans!) I am excited to explore more about the city, to try out good shusi places, and to meet interesting people around here.
                   </p>
                </div>
            </div>
