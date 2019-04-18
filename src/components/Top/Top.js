@@ -4,7 +4,6 @@ import Typed from 'typed.js';
 
 class Top extends React.Component{
 
-
    componentDidMount() {
       let options = {
          strings: ["Software Engineer", "Tech Enthusiast", "NBA Fan"],
@@ -34,7 +33,6 @@ class Top extends React.Component{
                   <h1 className="fw1 f-subheadline-m f1 f-headline-l black" >David Huang</h1>
                   <span className="f1-m f1-l f3" style={{ whiteSpace: 'pre', color: "#0266C8" }}
                      id = 'typed'>
-
                   </span>
                </div>
                <div>
