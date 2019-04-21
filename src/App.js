@@ -10,8 +10,6 @@ import Footer from './components/Footer/Footer.js';
 
 class App extends Component {
 
-
-
   render() {
     return (
       <div>
