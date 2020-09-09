@@ -18,17 +18,16 @@ const About = () => {
                   Hi, I am David.
                   </p>
                   <p>
-                  I am a passionate Software Engineer with 1+ year experience developing robust code,
-                  and eager to learn new technology stacks.
+                  I am a passionate Software Engineer with 3+ year experience developing robust code in production software.
                   </p>
                   <p>
-                     Since I graduated from the University of Texas at Dallas with my B.S. in Mathematics and Computer Science (minor),
-                     I have been working as an engineer in the field of software development and machine learning.
-                     With these valuable diverse experiences, I want to further pursue my career in the Software Engineer space.
-
+                     I have been working as an engineer in the field of software development and machine learning
+                     since I graduated from the University of Texas at Dallas with my B.S. in Mathematics and minor in Computer Science.
+                     With these valuable diverse experiences, I want to further pursue my career in the Software Engineering space.
                   </p>
                   <p>
-                     I just recently moved to Bay Area. (But secretly, I am a long time Warriors fans!) I am excited to explore more about the city, to try out good Sushi places, and to meet interesting people around here.
+                     I am currently based in Austin, Texas.
+                     I am excited to explore more about the city, to try out good taco places 🌮 , and to meet interesting people here.
                   </p>
                </div>
            </div>
