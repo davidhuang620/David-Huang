@@ -4,4 +4,5 @@ Please visit  <a href='http://www.davidhuang620.com' className="link black hover
 
 Personal website built with React. It is responsive and mobile friendly.
 
+**Deployment**
 After changes, run `npm run deploy`
