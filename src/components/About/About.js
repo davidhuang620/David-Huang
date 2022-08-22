@@ -18,12 +18,12 @@ const About = () => {
                   Hi, I am David.
                   </p>
                   <p>
-                  I am a passionate Software Engineer with 3+ year experience developing robust code in production software.
+                  I am a passionate Software Engineer with 4+ year experience developing robust code in production software.
                   </p>
                   <p>
-                     I have been working as an engineer in the field of software development and machine learning
-                     since I graduated from the University of Texas at Dallas with my B.S. in Mathematics and minor in Computer Science.
-                     With these valuable diverse experiences, I want to further pursue my career in the Software Engineering space.
+                     - Previously @ Dropbox, Gopuff, Hedge Fund. 
+                     - Master of Computer Science @ University of Illinois at Urbana-Champaign
+                     - Bachelor of Science in Mathematics and minor in Computer Science @ the University of Texas at Dallas
                   </p>
                   <p>
                      I am currently based in Austin, Texas.
