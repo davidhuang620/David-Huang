@@ -21,13 +21,13 @@ const About = () => {
                   I am a passionate Software Engineer with 4+ year experience developing robust code in production software.
                   </p>
                   <p>
-                     - Previously @ Dropbox, Gopuff, Hedge Fund. 
+                     - Previously @ Dropbox, Gopuff, Hedge Fund.
                      - Master of Computer Science @ University of Illinois at Urbana-Champaign
                      - Bachelor of Science in Mathematics and minor in Computer Science @ the University of Texas at Dallas
                   </p>
                   <p>
                      I am currently based in Austin, Texas.
-                     I am excited to explore more about the city, to try out good taco places 🌮 , and to meet interesting people here.
+                     I am excited to explore more about the city, to try out good taco places <span role="img" aria-label="taco">🌮</span> , and to meet interesting people here.
                   </p>
                </div>
            </div>
